@@ -42,9 +42,7 @@ export const CalculatorPage: React.FC<Props> = (props: Props) => {
     { [k in string]: { value: number; kcal: number } }
   >({});
 
-  const handleReset = () => (
-    value: number
-  ) => {
+  const handleReset = () => {
     setValues({});
     };
 
